@@ -1,0 +1,374 @@
+.bannerBackgroundIcon,
+.bannerGradient {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.bannerGradient {
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(78.78deg, #114f8b 5.2%, #2a9ad7);
+}
+.bannerBackgroundIcon {
+  top: 0.4px;
+  bottom: -0.4px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.whereAreYou {
+  align-self: stretch;
+  height: 67px;
+  position: relative;
+  line-height: 67px;
+  display: inline-block;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dateField {
+  align-self: stretch;
+  height: 56px;
+}
+.inputGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+}
+.inputsRow {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  width: 147px;
+  height: 26px;
+  position: relative;
+  font-size: var(--components-button-large-size);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--primary-contrast);
+  text-align: center;
+  display: inline-block;
+}
+.buttonGroup,
+.searchFlightsButton,
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange-200);
+  width: 164px;
+  height: 56px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: 0.3s;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-darkorange);
+}
+.buttonGroup,
+.searchForm {
+  padding: var(--padding-8xs);
+}
+.searchForm {
+  align-self: stretch;
+  border-radius: 10px;
+  background-color: var(--primary-contrast);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+}
+.searchSection {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 96.5px);
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.searchContainer {
+  align-self: stretch;
+  position: relative;
+  height: 362px;
+}
+.searchFormSection {
+  align-self: stretch;
+  background: linear-gradient(100.3deg, #114f8b, #2a9bd7);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.results {
+  width: 219.4px;
+  position: relative;
+  letter-spacing: 0.26px;
+  display: inline-block;
+}
+.frameChild {
+  width: 228px;
+  position: relative;
+  max-height: 100%;
+}
+.resultsParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.resultsSummary {
+  width: 228px;
+  position: relative;
+  height: 47px;
+  font-size: var(--font-size-xl);
+}
+.results1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 65.3px;
+}
+.component1formcheckbox {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.component1formcheckbox1 {
+  position: absolute;
+  top: 86px;
+  left: 0;
+}
+.stops {
+  width: 296.6px;
+  position: relative;
+  height: 106px;
+}
+.results2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 189px;
+}
+.bookingOptions {
+  width: 221px;
+  position: relative;
+  height: 106px;
+}
+.results3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 198px;
+}
+.flightExperience {
+  width: 310.8px;
+  position: relative;
+  height: 106px;
+}
+.results4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 87.8px;
+}
+.airlines {
+  width: 181px;
+  position: relative;
+  height: 106px;
+}
+.searchFilters {
+  width: 253px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+}
+.results5 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.recentlyBookedTitleChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.recentlyBooked,
+.recentlyBookedTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.recentlyBookedTitle {
+  align-self: stretch;
+  gap: var(--gap-sm);
+}
+.recentlyBooked {
+  width: 257px;
+  border-radius: var(--br-7xs);
+  background-color: var(--primary-contrast);
+  padding: 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: 18px;
+}
+.resultsSection,
+.searchResults {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.resultsSection {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-base);
+  color: var(--color-cornflowerblue-200);
+}
+.searchResults {
+  align-self: stretch;
+  justify-content: center;
+  padding: 50px var(--padding-61xl);
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--components-button-large);
+}
+.footerSection,
+.resultsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerSection {
+  align-self: stretch;
+}
+.resultsPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary-contrast);
+  overflow: hidden;
+  text-align: left;
+  font-size: 61px;
+  color: var(--primary-contrast);
+  font-family: var(--font-baloo-bhai);
+}
+@media screen and (max-width: 1200px) {
+  .searchFilters {
+    display: none;
+  }
+  .searchResults {
+    padding: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .whereAreYou {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .inputsRow {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .searchFlightsButton {
+    margin-right: auto;
+  }
+  .buttonGroup {
+    width: 100%;
+    text-align: left;
+  }
+  .searchForm {
+    flex-direction: column;
+  }
+  .searchSection {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+    width: 100%;
+    top: calc(44% - 96.5px - 0px);
+  }
+  .recentlyBooked {
+    width: 100%;
+  }
+  .resultsSection {
+    flex-direction: column;
+    gap: 80;
+  }
+  .searchResults {
+    padding: var(--padding-xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .whereAreYou {
+    font-size: 31px;
+    line-height: 40px;
+  }
+  .inputGroup {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputsRow {
+    flex-direction: column;
+  }
+  .searchFlightsButton {
+    width: 100% !important;
+  }
+  .searchSection {
+    width: 100%;
+    top: calc(32% - 96.5px - 0px);
+  }
+  .searchContainer {
+    height: 480px;
+  }
+}

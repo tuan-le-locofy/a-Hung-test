@@ -1,0 +1,19 @@
+.departureField {
+  align-self: stretch;
+  height: 56px;
+}
+.inputGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+}
+@media screen and (max-width: 650px) {
+  .inputGroup {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+}

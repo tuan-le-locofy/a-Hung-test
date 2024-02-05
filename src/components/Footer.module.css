@@ -1,0 +1,216 @@
+.logoIcon {
+  width: 174px;
+  height: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fickleFlightIs {
+  align-self: stretch;
+  height: 54px;
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+}
+.facebookIcon,
+.instagramIcon,
+.twitterIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.instagramIcon,
+.twitterIcon {
+  left: 100px;
+}
+.instagramIcon {
+  left: 50px;
+}
+.socialIcons {
+  width: 130px;
+  position: relative;
+  height: 30px;
+}
+.fickleflightBio {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  margin-bottom: 40px !important;
+}
+.seperator {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  height: 157.9px;
+}
+.aboutUs {
+  top: 47.8px;
+  width: 135.7px;
+}
+.aboutUs,
+.careers,
+.company1,
+.howWeWork,
+.news {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.company1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 27px;
+  font-weight: 500;
+  width: 174.7px;
+}
+.careers,
+.howWeWork,
+.news {
+  top: 78.8px;
+  width: 84.3px;
+}
+.careers,
+.howWeWork {
+  top: 109.8px;
+  width: 115.1px;
+}
+.howWeWork {
+  top: 140.8px;
+  width: 197.3px;
+}
+.company {
+  width: 197.3px;
+  position: relative;
+  height: 159.8px;
+}
+.account,
+.support1 {
+  position: absolute;
+  top: 47.8px;
+  left: 0;
+  display: inline-block;
+  width: 109.6px;
+}
+.support1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 27px;
+  font-weight: 500;
+  width: 131.6px;
+}
+.accessibility,
+.faq,
+.supportCenter {
+  position: absolute;
+  top: 78.8px;
+  left: 0;
+  display: inline-block;
+  width: 197.3px;
+}
+.accessibility,
+.faq {
+  top: 109.8px;
+  width: 53px;
+}
+.accessibility {
+  top: 140.8px;
+  width: 164.4px;
+}
+.covidAdvisory {
+  top: 47.8px;
+  width: 172.9px;
+}
+.airlineFees,
+.covidAdvisory,
+.more1,
+.tips {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.more1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 27px;
+  font-weight: 500;
+  width: 76.7px;
+}
+.airlineFees,
+.tips {
+  top: 78.8px;
+  width: 135.4px;
+}
+.tips {
+  top: 109.8px;
+  width: 50.6px;
+}
+.more {
+  width: 197.3px;
+  position: relative;
+  height: 159.8px;
+}
+.footer,
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footerLinks {
+  flex: 1;
+  justify-content: space-between;
+  font-size: var(--font-size-base);
+}
+.footer {
+  align-self: stretch;
+  background: linear-gradient(91.74deg, #0b5ba8 25.38%, #299bd8);
+  justify-content: flex-start;
+  padding: var(--padding-14xl) var(--padding-65xl);
+  gap: var(--gap-25xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--primary-contrast);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .fickleflightBio {
+    flex: unset;
+    align-self: stretch;
+  }
+  .seperator {
+    display: none;
+  }
+  .footerLinks {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer {
+    flex-direction: column;
+    padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .company {
+    margin-bottom: 40px !important;
+  }
+  .footerLinks {
+    flex-direction: column;
+  }
+  .footer {
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
