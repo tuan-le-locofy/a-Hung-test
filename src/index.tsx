@@ -12,7 +12,9 @@ import {
 
 import "./global.css";
 
-const muiTheme = createTheme();
+const muiTheme = createTheme({
+  palette: { warning: { main: "rgba(249,154,14,1)" } },
+});
 
 const container = document.getElementById("root");
 const root = createRoot(container!);

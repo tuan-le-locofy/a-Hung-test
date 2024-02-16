@@ -1,0 +1,16 @@
+.footerSection,
+.hotelsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerSection {
+  align-self: stretch;
+}
+.hotelsPage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+}

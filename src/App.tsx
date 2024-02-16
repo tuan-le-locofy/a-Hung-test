@@ -5,7 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import ResultsPage from "./pages/ResultsPage";
+import MatterhornPopup from "./components/MatterhornPopup";
+import HotelsPage from "./pages/HotelsPage";
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/hotels-page":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<ResultsPage />} />
+      <Route path="/" element={<MatterhornPopup />} />
+      <Route path="/hotels-page" element={<HotelsPage />} />
     </Routes>
   );
 }

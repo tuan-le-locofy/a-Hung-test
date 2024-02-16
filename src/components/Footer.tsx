@@ -11,19 +11,7 @@ const Footer: FunctionComponent = () => {
           flight and hotel bookings. We also have all your flight needs in you
           online shop.
         </div>
-        <div className={styles.socialIcons}>
-          <img
-            className={styles.facebookIcon}
-            alt=""
-            src="/facebook-icon.svg"
-          />
-          <img className={styles.twitterIcon} alt="" src="/twitter-icon.svg" />
-          <img
-            className={styles.instagramIcon}
-            alt=""
-            src="/instagram-icon.svg"
-          />
-        </div>
+        <img className={styles.socialIcons} alt="" src="/social-icons.svg" />
       </div>
       <div className={styles.seperator} />
       <div className={styles.footerLinks}>
